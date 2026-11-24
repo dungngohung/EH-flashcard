@@ -1,0 +1,835 @@
+/* ========================================================
+   FLASHCARDS HÁN - VIỆT & NGÔN NGỮ CHIẾN LƯỢC
+   Phong cách: Obsidian Dark Mode / Trí Tuệ Cổ Điển
+   ======================================================== */
+
+:root {
+  --bg-main: #0a0c10;
+  --bg-card: #141721;
+  --bg-card-inner: #191c28;
+  --border-color: #262b3d;
+  --border-highlight: #3b435f;
+  --gold-primary: #d4af37;
+  --gold-glow: rgba(212, 175, 55, 0.25);
+  --cyan-accent: #61afef;
+  --text-main: #f0f3f6;
+  --text-muted: #8c95a6;
+  --text-quote: #c9d1d9;
+  --shadow-card: 0 16px 40px rgba(0, 0, 0, 0.65), 0 0 20px rgba(212, 175, 55, 0.08);
+  --radius-card: 18px;
+  --radius-btn: 10px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  min-height: 100vh;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+/* Header & Navigation Bar */
+header {
+  padding: 14px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--border-color);
+  background: rgba(16, 19, 27, 0.85);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 28px;
+  height: 28px;
+  background: linear-gradient(135deg, var(--gold-primary), #997819);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #000;
+  font-size: 15px;
+}
+
+.logo-text {
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--text-main);
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* Catalog Button in Header */
+.catalog-btn {
+  background: var(--bg-card);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 6px 14px;
+  border-radius: var(--radius-btn);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.catalog-btn:hover {
+  border-color: var(--gold-primary);
+  background: var(--bg-card-inner);
+  box-shadow: 0 0 10px rgba(212, 175, 55, 0.15);
+}
+
+.catalog-btn .catalog-icon {
+  font-size: 14px;
+}
+
+.catalog-btn .catalog-label {
+  color: var(--gold-primary);
+}
+
+/* Progress bar */
+.progress-container {
+  width: 100%;
+  height: 3px;
+  background: var(--border-color);
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%;
+  width: 20%;
+  background: linear-gradient(90deg, var(--gold-primary), var(--cyan-accent));
+  transition: width 0.35s ease;
+}
+
+/* Main Container */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  max-width: 680px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Card 3D Flip Wrapper */
+.card-scene {
+  width: 100%;
+  height: calc(100dvh - 180px);
+  min-height: 480px;
+  max-height: 640px;
+  perspective: 1200px;
+  position: relative;
+  cursor: pointer;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+}
+
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  border-radius: var(--radius-card);
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* CARD FRONT */
+.card-front {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: radial-gradient(circle at 50% 10%, #1e2333 0%, var(--bg-card) 70%);
+}
+
+.card-tag {
+  align-self: flex-start;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--gold-primary);
+  background: rgba(212, 175, 55, 0.12);
+  padding: 4px 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(212, 175, 55, 0.25);
+}
+
+.front-main {
+  text-align: center;
+  margin: auto 0;
+}
+
+.english-term {
+  font-size: 32px;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+  color: #fff;
+  margin-bottom: 8px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sub-term {
+  font-size: 14px;
+  color: var(--cyan-accent);
+  margin-bottom: 24px;
+  font-weight: 500;
+}
+
+.quote-box {
+  background: var(--bg-card-inner);
+  border-left: 3px solid var(--gold-primary);
+  padding: 14px 18px;
+  border-radius: 0 10px 10px 0;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-quote);
+}
+
+.mechanism-text {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  text-align: left;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.front-hint {
+  text-align: center;
+  font-size: 12px;
+  color: var(--gold-primary);
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* CARD BACK */
+.card-back {
+  transform: rotateY(180deg);
+  background: var(--bg-card);
+  display: flex;
+  flex-direction: column;
+}
+
+.back-header {
+  padding: 14px 20px;
+  border-bottom: 1px solid var(--border-color);
+  background: var(--bg-card-inner);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hanviet-title {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.hanviet-main {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--gold-primary);
+  letter-spacing: 0.5px;
+}
+
+.hantu-text {
+  font-family: "Noto Serif SC", "Songti SC", "SimSun", serif;
+  font-size: 16px;
+  color: var(--text-muted);
+}
+
+.flip-back-btn {
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.flip-back-btn:hover {
+  color: var(--gold-primary);
+}
+
+/* Scrollable Content inside Card Back */
+.back-scroll-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 18px;
+  overscroll-behavior: contain;
+}
+
+/* Custom Scrollbar */
+.back-scroll-area::-webkit-scrollbar {
+  width: 5px;
+}
+
+.back-scroll-area::-webkit-scrollbar-thumb {
+  background: var(--border-highlight);
+  border-radius: 10px;
+}
+
+/* Mermaid Container */
+.mermaid-box {
+  background: #0f121a;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 14px 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
+
+.mermaid-box svg {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Character Deep-Dive Blocks */
+.decompression-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.char-card {
+  background: var(--bg-card-inner);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+.char-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.char-hantu {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--gold-primary);
+  font-family: serif;
+}
+
+.char-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.char-soul {
+  font-size: 12px;
+  color: var(--cyan-accent);
+  margin-left: auto;
+}
+
+.char-etymology, .char-worldview {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+.char-worldview {
+  color: var(--text-main);
+}
+
+/* Synthesis & Application */
+.synthesis-box {
+  background: rgba(212, 175, 55, 0.08);
+  border: 1px dashed rgba(212, 175, 55, 0.3);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 14px;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--gold-primary);
+}
+
+.field-app-box {
+  background: #11141d;
+  border-left: 3px solid var(--cyan-accent);
+  border-radius: 0 8px 8px 0;
+  padding: 12px;
+  font-size: 12.5px;
+  line-height: 1.55;
+  color: var(--text-quote);
+}
+
+.field-app-title {
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--cyan-accent);
+  margin-bottom: 4px;
+}
+
+/* Bottom Controls */
+footer {
+  padding: 12px 20px 20px;
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.controls-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.btn {
+  background: var(--bg-card);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 12px 20px;
+  border-radius: var(--radius-btn);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+  flex: 1;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-flip {
+  background: linear-gradient(135deg, #242938, #181c26);
+  border-color: var(--gold-primary);
+  color: var(--gold-primary);
+  flex: 1.8;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.15);
+}
+
+.btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.hint-bar {
+  text-align: center;
+  font-size: 11.5px;
+  color: var(--text-muted);
+  letter-spacing: 0.3px;
+}
+
+/* Mobile Tweaks */
+@media (max-width: 480px) {
+  header {
+    padding: 10px 14px;
+  }
+  .english-term {
+    font-size: 26px;
+  }
+  .card-scene {
+    height: calc(100dvh - 175px);
+  }
+  .card-front {
+    padding: 18px 16px;
+  }
+  .btn {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+}
+
+/* ========================================================
+   SLIDE-IN CATALOG DRAWER (Tối ưu cho hàng trăm từ vựng)
+   ======================================================== */
+
+.drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(4, 6, 10, 0.75);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 100;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.drawer-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.catalog-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 420px;
+  max-width: 90vw;
+  height: 100%;
+  height: 100dvh;
+  background: #10131b;
+  border-left: 1px solid var(--border-color);
+  box-shadow: -15px 0 40px rgba(0, 0, 0, 0.85);
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform;
+}
+
+.catalog-drawer.active {
+  transform: translateX(0);
+}
+
+/* Drawer Header */
+.drawer-header {
+  padding: 18px 20px 14px;
+  border-bottom: 1px solid var(--border-color);
+  background: #141822;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.drawer-title-area {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.drawer-badge {
+  font-size: 10.5px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: var(--gold-primary);
+  text-transform: uppercase;
+}
+
+.drawer-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.drawer-close-btn {
+  background: transparent;
+  border: 1px solid var(--border-color);
+  color: var(--text-muted);
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.drawer-close-btn:hover {
+  color: #fff;
+  border-color: var(--border-highlight);
+  background: var(--bg-card-inner);
+}
+
+/* Search Bar in Drawer */
+.drawer-search-area {
+  padding: 12px 18px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  background: #11141d;
+}
+
+.search-input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 12px;
+  font-size: 13px;
+  opacity: 0.6;
+  pointer-events: none;
+}
+
+#catalog-search {
+  width: 100%;
+  background: var(--bg-card);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 9px 34px 9px 34px;
+  border-radius: 8px;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+#catalog-search:focus {
+  border-color: var(--gold-primary);
+  background: #151924;
+}
+
+.search-clear-btn {
+  position: absolute;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 12px;
+  display: none;
+}
+
+.search-clear-btn.visible {
+  display: block;
+}
+
+/* Scrollable List Container */
+.drawer-list-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overscroll-behavior: contain;
+}
+
+.drawer-list-area::-webkit-scrollbar {
+  width: 5px;
+}
+
+.drawer-list-area::-webkit-scrollbar-thumb {
+  background: var(--border-highlight);
+  border-radius: 10px;
+}
+
+/* Grouping by Date / Session */
+.catalog-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.catalog-group-title {
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: var(--cyan-accent);
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 4px;
+  border-bottom: 1px dashed rgba(97, 175, 239, 0.2);
+}
+
+.catalog-group-items {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Item Card */
+.catalog-item {
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.catalog-item:hover {
+  background: #181d2a;
+  border-color: var(--border-highlight);
+  transform: translateX(-3px);
+}
+
+.catalog-item.active {
+  background: #1c2233;
+  border-color: var(--gold-primary);
+  box-shadow: 0 0 12px rgba(212, 175, 55, 0.18);
+}
+
+.catalog-item-num {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-muted);
+  background: rgba(255, 255, 255, 0.05);
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog-item.active .catalog-item-num {
+  background: var(--gold-primary);
+  color: #000;
+}
+
+.catalog-item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  overflow: hidden;
+}
+
+.catalog-item-en {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.catalog-item-hv {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--gold-primary);
+  letter-spacing: 0.3px;
+}
+
+.catalog-item-active-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--gold-primary);
+  display: none;
+}
+
+.catalog-item.active .catalog-item-active-dot {
+  display: block;
+}
+
+.no-results-msg {
+  text-align: center;
+  padding: 30px 10px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+
+/* Drawer Footer */
+.drawer-footer {
+  padding: 10px 18px;
+  border-top: 1px solid var(--border-color);
+  background: #11141d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+.drawer-tip {
+  opacity: 0.7;
+}
+
+/* Mobile: Bottom Sheet Mode */
+@media (max-width: 600px) {
+  .catalog-drawer {
+    top: auto;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100vw;
+    height: 80vh;
+    height: 80dvh;
+    border-left: none;
+    border-top: 1px solid var(--border-color);
+    border-radius: 20px 20px 0 0;
+    transform: translateY(100%);
+  }
+
+  .catalog-drawer.active {
+    transform: translateY(0);
+  }
+
+  .catalog-item:hover {
+    transform: none;
+  }
+}
+

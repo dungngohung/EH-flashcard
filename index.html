@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="theme-color" content="#0a0c10">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>Flashcards Hán - Việt & Ngôn Ngữ Chiến Lược</title>
+  <link rel="stylesheet" href="style.css?v=1.1">
+  <!-- Mermaid.js for beautiful diagrams -->
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo-area">
+      <div class="logo-icon">漢</div>
+      <div class="logo-text">Hán-Việt Flashcards</div>
+    </div>
+    <div class="header-controls">
+      <button class="catalog-btn" id="btn-catalog" title="Mở danh mục từ vựng (Phím M)">
+        <span class="catalog-icon">📑</span>
+        <span class="catalog-label" id="catalog-label">Kho Từ Vựng (5)</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+
+  <!-- Main Flashcard Scene -->
+  <main>
+    <div class="card-scene" id="card-scene">
+      <div class="card" id="card">
+        
+        <!-- Mặt Trước (Front) -->
+        <div class="card-face card-front">
+          <div class="card-tag" id="card-counter">THẺ 1 / 5</div>
+          
+          <div class="front-main">
+            <h1 class="english-term" id="front-english">Ontology</h1>
+            <div class="sub-term" id="front-sub">Bản thể luận phần mềm / Cấu trúc ánh xạ thực tại</div>
+            
+            <div class="quote-box">
+              <div class="quote-text" id="front-quote">"Everyone who uses LLMs on the battlefield runs on top of our ontology."</div>
+            </div>
+
+            <div class="mechanism-text" id="front-mechanism">
+              Tấn công sự ngây thơ về AI...
+            </div>
+          </div>
+
+          <div class="front-hint">
+            <span>✨ Chạm hoặc bấm Space để giải mã Hán - Việt</span>
+          </div>
+        </div>
+
+        <!-- Mặt Sau (Back) -->
+        <div class="card-face card-back">
+          <div class="back-header">
+            <div class="hanviet-title">
+              <span class="hanviet-main" id="back-hanviet">THỰC TẠI ĐỒ PHỔ</span>
+              <span class="hantu-text" id="back-hantu">實在圖譜</span>
+            </div>
+            <button class="flip-back-btn" id="flip-back-btn" title="Lật lại mặt trước">
+              <span>Mặt trước ↺</span>
+            </button>
+          </div>
+
+          <!-- Scrollable Content -->
+          <div class="back-scroll-area">
+            <!-- Mermaid Diagram Container -->
+            <div class="mermaid-box" id="mermaid-container">
+              <!-- Rendered via Mermaid.js -->
+            </div>
+
+            <!-- Deep Decompression -->
+            <div class="decompression-section" id="decompression-container">
+              <!-- Character cards rendered dynamically -->
+            </div>
+
+            <!-- Synthesis & Field Application -->
+            <div class="synthesis-box" id="synthesis-box"></div>
+            
+            <div class="field-app-box">
+              <div class="field-app-title">⚔️ Ứng Dụng Thực Chiến Quyền Lực</div>
+              <div id="field-app-text"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Bottom Navigation -->
+  <footer>
+    <div class="controls-row">
+      <button class="btn" id="btn-prev" title="Thẻ trước (Phím ←)">
+        <span>← Trước</span>
+      </button>
+      
+      <button class="btn btn-flip" id="btn-flip" title="Lật thẻ (Phím Space)">
+        <span id="flip-btn-text">Lật Giải Mã</span>
+      </button>
+
+      <button class="btn" id="btn-next" title="Thẻ kế tiếp (Phím →)">
+        <span>Sau →</span>
+      </button>
+    </div>
+
+    <div class="hint-bar">
+      <span>Chạm để lật • Vuốt Trái/Phải để chuyển từ • Phím Space / Mũi tên</span>
+    </div>
+  </footer>
+
+  <!-- Drawer Kho Từ Vựng (Slide-in Drawer & Bottom Sheet on mobile) -->
+  <div class="drawer-overlay" id="drawer-overlay"></div>
+  <aside class="catalog-drawer" id="catalog-drawer" aria-hidden="true">
+    <div class="drawer-header">
+      <div class="drawer-title-area">
+        <span class="drawer-badge">KHO TỪ VỰNG</span>
+        <h2 class="drawer-title">Danh Mục Chiến Lược</h2>
+      </div>
+      <button class="drawer-close-btn" id="btn-close-drawer" title="Đóng danh mục (Esc)">✕</button>
+    </div>
+
+    <div class="drawer-search-area">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="catalog-search" placeholder="Tìm kiếm tiếng Anh, Hán - Việt, ngày..." autocomplete="off">
+        <button class="search-clear-btn" id="btn-clear-search" title="Xóa tìm kiếm">✕</button>
+      </div>
+    </div>
+
+    <div class="drawer-list-area" id="drawer-list-container">
+      <!-- Rendered dynamically by app.js: grouped by date/session with active state -->
+    </div>
+
+    <div class="drawer-footer">
+      <span id="drawer-stats">Hiển thị 5 / 5 từ</span>
+      <span class="drawer-tip">Esc để đóng</span>
+    </div>
+  </aside>
+
+  <!-- Scripts -->
+  <script src="cards-data.js?v=1.1"></script>
+  <script src="app.js?v=1.1"></script>
+</body>
+</html>
