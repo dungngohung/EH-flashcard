@@ -257,5 +257,260 @@ window.FLASHCARDS_DATA = [
       }
     ],
     unifiedSynthesis: "Cắm mũi cọc thép xuống mép chiến hào khốc liệt nhất, buộc chặt sinh mệnh vào thực địa để giải quyết bài toán sống còn (Tiền Duyên Thâm Trát)."
+  },
+  {
+    id: 6,
+    date: "25/11/2026",
+    source: "Alex Karp (Stanford / Habermas / Palantir) - Listening-25-11-2026",
+    englishTerm: "Heterogeneous non-conformant views",
+    phoneticOrSub: "Góc nhìn dị chất kháng quy / Sự va chạm của các cấu trúc nhận thức dị giáo",
+    quote: "We both had heterogeneous non-conformant views, his leaning to the right, mine more classically but not completely classically on the left.",
+    contextMechanism: "Vô hiệu hóa tư duy nhị nguyên tầm thường (Tả - Hữu, Đúng - Sai). Định khung cọ xát tư tưởng không phải là tranh cãi chính trị, mà là sự va chạm giữa các cấu trúc nhận thức dị giáo cự tuyệt bị đồng hóa bởi ma trận tư duy tinh hoa.",
+    fieldApplication: "Nếu anh đầu tư đất ở Hà Nội mà cứ bám theo các hội nhóm đám đông thì chỉ đóng vai người dọn cỗ cho kẻ khác; muốn săn được những viên ngọc thô ở khu Tây Hồ hay Đông Anh trước các đợt sóng quy hoạch, anh em mình buộc phải duy trì Dị Chất Kháng Quy để nhìn ra giá trị bản thể ngay khi cả thị trường đang hoài nghi.",
+    hanVietTerm: "DỊ CHẤT KHÁNG QUY",
+    hanTu: "異質抗規",
+    mermaidCode: `flowchart TD
+    D1["<b>DỊ</b><br/><i>(Mặt nạ dị quái + Hai tay nâng)</i>"] --> DC["<b>DỊ CHẤT (異質)</b><br/>Bản thể dị biệt, cốt tủy khác loài không thể hòa tan"]
+    D2["<b>CHẤT</b><br/><i>(Rìu sắt chém thử + Vỏ sò quý)</i>"] --> DC
+    
+    DC -- "THẾ ĐỨNG VÀ PHẢN TƯ TƯỞNG" --> KQ["<b>KHÁNG QUY (抗規)</b><br/>Bẻ gãy compa giới hạn, cự tuyệt khuôn mẫu đồng thuận"]
+    
+    KQ --> K1["<b>KHÁNG</b><br/><i>(Tay giương cao + Đầu ngẩng nghênh địch)</i>"]
+    KQ --> K2["<b>QUY</b><br/><i>(Trượng phu + Mắt nhìn thấu compa)</i>"]`,
+    decompressedChars: [
+      {
+        char: "DỊ",
+        hanTu: "異",
+        soul: "Mặt nạ dị quái phi thường",
+        etymology: "Bộ Điền (田 - mặt nạ quái dị trong tế lễ cổ) + Cung (廾 - hai bàn tay nâng lên dị thường).",
+        worldview: "Sự dị biệt tận căn rễ, khác lạ với loài người thông thường, cự tuyệt tính đồng nhất tẻ nhạt của đám đông."
+      },
+      {
+        char: "CHẤT",
+        hanTu: "質",
+        soul: "Cốt tủy vật chứng bất biến",
+        etymology: "Hai chữ Cân (斤 - lưỡi rìu chiến trận) đặt trên chữ Bối (貝 - vỏ sò báu vật).",
+        worldview: "Dùng rìu thử độ rắn chắc của báu vật, thẩm định bản chất cốt lõi chân thực không thể bị đánh tráo hay hư ảo hóa."
+      },
+      {
+        char: "KHÁNG",
+        hanTu: "抗",
+        soul: "Giương tay ngẩng đầu chống ép",
+        etymology: "Bộ Thủ (扌- bàn tay giương cao) + chữ Kháng (亢 - cổ ngẩng cao nghênh địch).",
+        worldview: "Bàn tay đẩy lùi áp lực đè nặng nghìn cân, cái đầu ngẩng cao từ chối quỳ gối khuất phục trước trật tự áp đặt."
+      },
+      {
+        char: "QUY",
+        hanTu: "規",
+        soul: "Chiếc com-pa vẽ ranh giới chuẩn mực",
+        etymology: "Bộ Phu (夫 - người trượng phu) + Kiến (見 - mắt nhìn thấu suốt).",
+        worldview: "Chiếc com-pa vạch nên vòng tròn chuẩn mực xã hội, ranh giới an toàn đóng khung nhận thức thông thường."
+      }
+    ],
+    unifiedSynthesis: "Đột phá chiến lược không sinh ra từ sự đồng thuận ru ngủ, mà bùng nổ khi các cấu trúc nhận thức dị biệt cắm rễ vào bản chất (Dị Chất) kiên cường chống lại sự đồng hóa của khuôn mẫu quy chuẩn đám đông (Kháng Quy)."
+  },
+  {
+    id: 7,
+    date: "25/11/2026",
+    source: "Alex Karp (Stanford / Habermas / Palantir) - Listening-25-11-2026",
+    englishTerm: "Three-year bid",
+    phoneticOrSub: "Bản án giam lỏng ba năm / Hạn tù thuần hóa nhận thức",
+    quote: "Doing three years of regurgitation... it's like I've already had a three-year bid. Like I don't want to... I've escaped my three-year bid.",
+    contextMechanism: "Tước đoạt tính thiêng liêng hào nhoáng của các học viện danh giá nhất thế giới (Stanford Law). Lột trần bản chất nhai lại giáo điều thành một trại giam tinh thần nơi con người đem thời gian sống đổi lấy sự thuần hóa nhận thức.",
+    fieldApplication: "Nhiều đại gia Hà Nội cứ tưởng mình đang sở hữu đất, nhưng thực chất họ vừa tự khóa chân vào một Tam Niên Tù Hạn khi ôm các dự án vướng pháp lý bằng đòn bẩy ngân hàng—biến khối tài sản triệu đô thành một bản án giam lỏng toàn bộ dòng tiền và tước mất tính cơ động của gia tộc.",
+    hanVietTerm: "TAM NIÊN TÙ HẠN",
+    hanTu: "三年囚限",
+    mermaidCode: `flowchart TD
+    T1["<b>TAM</b><br/><i>(Ba vạch trời đất nhân)</i>"] --> TN["<b>TAM NIÊN (三年)</b><br/>Định lượng thời gian: Ba vòng nhật nguyệt một kiếp hạn"]
+    T2["<b>NIÊN</b><br/><i>(Gùi lúa chín trên lưng)</i>"] --> TN
+    
+    TN -- "BẢN CHẤT KHÔNG GIAN BỊ GIAM LÀ" --> TH["<b>TÙ HẠN (囚限)</b><br/>Bốn bức tường đá phong tỏa, cùm kẹp sinh mệnh"]
+    
+    TH --> U1["<b>TÙ</b><br/><i>(Người kẹt giữa bốn vách kín)</i>"]
+    TH --> U2["<b>HẠN</b><br/><i>(Vách núi đá + Mắt trừng dừng lại)</i>"]`,
+    decompressedChars: [
+      {
+        char: "TAM",
+        hanTu: "三",
+        soul: "Chu kỳ hoàn bị ba cõi",
+        etymology: "Ba nét gạch ngang tượng trưng Thiên - Địa - Nhân.",
+        worldview: "Cấu trúc tối giản hoàn bị của một chu kỳ biến dịch không-thời gian trong vũ trụ quan cổ đại."
+      },
+      {
+        char: "NIÊN",
+        hanTu: "年",
+        soul: "Vòng quay mùa màng một đời lúa",
+        etymology: "Chữ Hòa (禾 - bó lúa chín trĩu) trên lưng người (Nhân 人).",
+        worldview: "Chu kỳ một vụ mùa thu hoạch ngũ cốc, vòng quay một năm đong đếm thời gian sống quý giá của con người."
+      },
+      {
+        char: "TÙ",
+        hanTu: "囚",
+        soul: "Con người mắc kẹt trong bốn bức tường",
+        etymology: "Bộ Vi (囗 - bốn bức tường khép kín) bao bọc lấy chữ Nhân (人 - con người).",
+        worldview: "Thực thể sống bị nhốt chặt trong không gian phong tỏa tuyệt đối, tước đoạt toàn bộ tự do sinh mệnh và hành động."
+      },
+      {
+        char: "HẠN",
+        hanTu: "限",
+        soul: "Vách núi đá chặn đứng đường đi",
+        etymology: "Bộ Phụ (阝- vách núi dốc đứng) + Cấn (艮 - mắt trừng trừng dừng lại).",
+        worldview: "Bức tường đá dựng đứng chắn ngang tầm mắt, ấn định lằn ranh giới hạn bất khả vượt qua, giam hãm kiếp người."
+      }
+    ],
+    unifiedSynthesis: "Tước sạch lớp sơn hào nhoáng của bằng cấp đỉnh cao: Dành ba vòng nhật nguyệt (Tam Niên) nhai lại tri thức của kẻ khác thực chất chỉ là một bản án giam giữ trong ngục tù nhận thức bị ấn định thời hạn (Tù Hạn)."
+  },
+  {
+    id: 8,
+    date: "25/11/2026",
+    source: "Alex Karp (Stanford / Habermas / Palantir) - Listening-25-11-2026",
+    englishTerm: "Right personality for building",
+    phoneticOrSub: "Khí cách doanh tạo / Cốt cách kiến tạo thực tại",
+    quote: "I had certain abilities they didn't have to like be a builder... they didn't have the right personality for building.",
+    contextMechanism: "Tấn công sự bất lực của tầng lớp trí thức hàn lâm tháp ngà chỉ quen tư biện trong môi trường không rủi ro. Can thiệp vào thế giới vật chất đòi hỏi cấu trúc nhân cách lì đòn, chịu đựng ma sát hiện thực và ý chí áp đặt trật tự lên hỗn loạn.",
+    fieldApplication: "Nhìn vào thị trường bất động sản Hà Nội hiện nay, người có tiền để lướt sóng gom đất thì không thiếu, nhưng tìm được một chủ đầu tư có Doanh Tạo Khí Cách để thực sự hoàn thiện hạ tầng, kiến tạo cộng đồng và nâng tầm giá trị sống thì chỉ đếm trên đầu ngón tay.",
+    hanVietTerm: "DOANH TẠO KHÍ CÁCH",
+    hanTu: "營造氣格",
+    mermaidCode: `flowchart TD
+    D1["<b>DOANH</b><br/><i>(Lửa soi doanh trại + Mái che trận địa)</i>"] --> DT["<b>DOANH TẠO (營造)</b><br/>Lập trại thi công, áp đặt trật tự lên cõi vật chất"]
+    D2["<b>TẠO</b><br/><i>(Bước chân dấn thân + Tế cáo thi hành)</i>"] --> DT
+    
+    DT -- "CĂN NGUYÊN NỘI LỰC SINH RA TỪ" --> KC["<b>KHÍ CÁCH (氣格)</b><br/>Cốt cách lì lợm, chịu đựng ma sát và va đập hiện thực"]
+    
+    KC --> K1["<b>KHÍ</b><br/><i>(Hơi nước bốc sôi + Hạt gạo nuôi sống)</i>"]
+    KC --> K2["<b>CÁCH</b><br/><i>(Cành cây làm thước đo xương sống)</i>"]`,
+    decompressedChars: [
+      {
+        char: "DOANH",
+        hanTu: "營",
+        soul: "Lập trại toan tính giữa đêm đen",
+        etymology: "Hai ngọn lửa bập bùng (Huỳnh 熒) soi rọi quân doanh + Mịch (冖 - mái che chở thế trận).",
+        worldview: "Bày binh bố trận, dựng trại nơi hiểm địa để toan tính đại sự và kiểm soát cục diện giữa đêm tối mịt mùng."
+      },
+      {
+        char: "TẠO",
+        hanTu: "造",
+        soul: "Dấn thân hành động chế tác thực thể",
+        etymology: "Bộ Sước (辶 - bước chân dấn thân không ngừng) + Cáo (告 - tế cáo trời đất, phát lệnh thực thi).",
+        worldview: "Đem ý niệm trong đầu bước ra đời thực, va chạm vật chất để tạo tác nên cấu trúc hiện thực mới."
+      },
+      {
+        char: "KHÍ",
+        hanTu: "氣",
+        soul: "Dòng năng lượng sinh mệnh cuộn trào",
+        etymology: "Hơi nước bốc lên từ nồi cơm đang sôi (Mễ 米 bên trong hơi nước 气).",
+        worldview: "Luồng sinh lực vô hình nhưng vận động mãnh liệt trong vũ trụ, nuôi dưỡng ý chí và sự bền bỉ của con người."
+      },
+      {
+        char: "CÁCH",
+        hanTu: "格",
+        soul: "Thước đo khung xương bản lĩnh",
+        etymology: "Bộ Mộc (木 - thân cây thẳng đứng làm thước) + Các (各 - mỗi cá thể độc lập).",
+        worldview: "Bộ khung xương sống định hình tư thế, chuẩn mực và khả năng chống chịu va đập ngoại cảnh của một nhân cách."
+      }
+    ],
+    unifiedSynthesis: "Tư biện tháp ngà chỉ tốn nước bọt; muốn dựng nghiệp vật chất phải xắn tay lập trại chế tác (Doanh Tạo), được chống đỡ bởi cấu trúc xương sống bản lĩnh và nội lực kiên cường chịu ma sát (Khí Cách)."
+  },
+  {
+    id: 9,
+    date: "25/11/2026",
+    source: "Alex Karp (Stanford / Habermas / Palantir) - Listening-25-11-2026",
+    englishTerm: "Systems theory",
+    phoneticOrSub: "Hệ thống đạo luận / Triết học giải mã siêu hệ thống tự sinh",
+    quote: "Nicholas Luhmann... developed this kind of theory, systems theory, which was a way of explaining how humans and systems function that basically is if you only reading one thing, you would read.",
+    contextMechanism: "Quét sạch lối tư duy ngây thơ coi trọng ý chí cá nhân đơn lẻ. Muốn giải bài toán quốc gia, an ninh tình báo hay doanh nghiệp khổng lồ phải giải mã bằng quy luật vận hành của các siêu hệ thống tự sinh (Autopoietic Systems) vận hành theo các mã nhị phân khép kín.",
+    fieldApplication: "Định giá một khu đất vàng ở trung tâm Hoàn Kiếm hay trục Tây Hồ Tây không thể chỉ nhìn vào diện tích hay mặt tiền cơ học, mà phải dùng Hệ Thống Đạo Luận để thấy nó là giao điểm của các dòng tiền ngầm, quy hoạch hạ tầng vĩ mô và sự vận động của các định chế quyền lực đứng sau.",
+    hanVietTerm: "HỆ THỐNG ĐẠO LUẬN",
+    hanTu: "系統道論",
+    mermaidCode: `flowchart TD
+    H1["<b>HỆ</b><br/><i>(Bó tơ liên kết chằng chịt)</i>"] --> HT["<b>HỆ THỐNG (系統)</b><br/>Mạng lưới đa phần tử liên thông dưới một rường mối ngầm"]
+    H2["<b>THỐNG</b><br/><i>(Sợi chỉ chủ đạo nắm giữ muôn mối)</i>"] --> HT
+    
+    HT -- "BẢN CHẤT ĐƯỢC GIẢI MÃ BỞI" --> DL["<b>ĐẠO LUẬN (道論)</b><br/>Học thuyết tối cao nắm giữ quy luật vận hành thực tại"]
+    
+    DL --> D1["<b>ĐẠO</b><br/><i>(Cái đầu tư duy + Con đường vận hành)</i>"]
+    DL --> D2["<b>LUẬN</b><br/><i>(Lời nói khúc chiết + Xếp đặt thẻ tre)</i>"]`,
+    decompressedChars: [
+      {
+        char: "HỆ",
+        hanTu: "系",
+        soul: "Mối liên kết tơ tằm chằng chịt",
+        etymology: "Bó tơ tằm (Tơ 糸) xâu chuỗi liên hoàn các mắt xích gắn kết hữu cơ.",
+        worldview: "Vạn vật trong cõi thế không đứng cô lập, mà bện chặt vào nhau thành một mạng lưới tương hỗ phức tạp."
+      },
+      {
+        char: "THỐNG",
+        hanTu: "統",
+        soul: "Mối rường rác thống nhất muôn ngàn tơ",
+        etymology: "Bộ Mịch (糸 - sợi tơ) + Sung (充 - làm đầy tràn, chủ đạo).",
+        worldview: "Sợi dây trục cái nắm giữ toàn bộ mạng lưới, đầu mối quy tụ và điều khiển muôn vạn chi tiết về một trật tự duy nhất."
+      },
+      {
+        char: "ĐẠO",
+        hanTu: "道",
+        soul: "Con đường vận hành quy luật càn khôn",
+        etymology: "Thủ (首 - cái đầu tư duy thấu suốt) + Sước (辶 - con đường vận hành bất tận).",
+        worldview: "Quy luật vận hành bản chất, con đường tất yếu chi phối sự sinh diệt của vạn vật trong vũ trụ."
+      },
+      {
+        char: "LUẬN",
+        hanTu: "論",
+        soul: "Sắp xếp chân lý thành học thuyết",
+        etymology: "Ngôn (言 - lời nói khúc chiết) + Luân (侖 - xếp đặt thẻ tre theo logic trật tự).",
+        worldview: "Dùng ngôn ngữ tư biện để phân định, mổ xẻ và kết tinh quy luật thành học thuyết dẫn dắt nhận thức."
+      }
+    ],
+    unifiedSynthesis: "Vượt qua hành vi vụn vặt của cá nhân đơn lẻ, nắm bắt trọn vẹn mạng lưới chằng chịt có rường mối ngầm chỉ huy (Hệ Thống) thông qua học thuyết giải mã quy luật sinh tồn tối thượng (Đạo Luận)."
+  },
+  {
+    id: 10,
+    date: "25/11/2026",
+    source: "Alex Karp (Stanford / Habermas / Palantir) - Listening-25-11-2026",
+    englishTerm: "Materially advance an institution",
+    phoneticOrSub: "Thực tiến định chế / Thúc đẩy thực chất vị thế thể chế",
+    quote: "There's just a way in which the gears are different and while I don't think they would build or run particularly well, I do think that they could materially advance an institution.",
+    contextMechanism: "Tái định vị quy mô tác động, từ chối các chỉ số bề mặt (KPIs, profit). Một hành động có giá trị phải tạo ra bước dịch chuyển có trọng lượng vật chất thực tế, làm thay đổi cấu trúc nền tảng và vị thế sinh tồn của định chế quyền lực trong lịch sử.",
+    fieldApplication: "Mua thêm vài căn hộ cao cấp cho thuê chỉ là tích sản số lượng thông thường, nhưng việc thâu tóm được khu đất lõi Ba Đình này để làm đại bản doanh lâu dài mới là nước cờ Thực Tiến Định Chế, xác lập vị thế và tầm ảnh hưởng của tập đoàn gia đình anh trong suốt ba mươi năm tới.",
+    hanVietTerm: "THỰC TIẾN ĐỊNH CHẾ",
+    hanTu: "實進定制",
+    mermaidCode: `flowchart TD
+    T1["<b>THỰC</b><br/><i>(Mái nhà chứa vàng bạc của cải)</i>"] --> TT["<b>THỰC TIẾN (實進)</b><br/>Bước tiến có sức nặng vật chất cụ thể, cự tuyệt hư danh"]
+    T2["<b>TIẾN</b><br/><i>(Chim bay thẳng theo chân bước)</i>"] --> TT
+    
+    TT -- "TÁC ĐỘNG THAY ĐỔI VĨNH VIỄN CẤU TRÚC" --> DC["<b>ĐỊNH CHẾ (定制)</b><br/>Thiết chế quyền lực rường cột của một đế chế"]
+    
+    DC --> D1["<b>ĐỊNH</b><br/><i>(Mái nhà vững chân an cư)</i>"]
+    DC --> D2["<b>CHẾ</b><br/><i>(Lưỡi dao đẽo gọt khuôn phép)</i>"]`,
+    decompressedChars: [
+      {
+        char: "THỰC",
+        hanTu: "實",
+        soul: "Của cải chắc đặc sờ nắm được",
+        etymology: "Mái nhà (宀) chứa đầy dây tiền (Quán 毌) và báu vật (Bối 貝).",
+        worldview: "Giá trị vật chất cụ thể cầm nắm được, đối lập tuyệt đối với những báo cáo giấy tờ hay hư danh rỗng tuếch."
+      },
+      {
+        char: "TIẾN",
+        hanTu: "進",
+        soul: "Sải cánh bay tới không quay đầu",
+        etymology: "Con chim nhỏ (Chuy 隹) sải cánh bay thẳng lên phía trước theo bước chân người (Sước 辶).",
+        worldview: "Hành động vượt qua ranh giới cũ, dấn bước về phía trước tạo ra bước ngoặt mới không thể đảo ngược."
+      },
+      {
+        char: "ĐỊNH",
+        hanTu: "定",
+        soul: "Chân đặt vững dưới mái nhà an cư",
+        etymology: "Dưới mái nhà (Miên 宀) đặt ngay ngắn bàn chân (Chính 疋).",
+        worldview: "Trật tự kiên cố, vững như bàn thạch, xác lập thế đứng bất khả lay chuyển qua năm tháng."
+      },
+      {
+        char: "CHẾ",
+        hanTu: "制",
+        soul: "Dao sắc đẽo gọt khuôn phép pháp chế",
+        etymology: "Lưỡi dao sắc bén (Đao 刂) gọt tỉa cành cây non vào quy củ.",
+        worldview: "Bộ luật lệ, khuôn khổ thiết chế quyền lực định hình nên quy tắc vận hành trường tồn của một tổ chức."
+      }
+    ],
+    unifiedSynthesis: "Cự tuyệt việc làm thuê chạy theo chỉ số ngắn hạn: Thực hiện bước tiến có sức nặng vật chất đo đếm được (Thực Tiến) làm dịch chuyển nền tảng và nâng tầm vị thế sinh tồn của định chế quyền lực (Định Chế)."
   }
 ];
