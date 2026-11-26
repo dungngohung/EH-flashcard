@@ -512,5 +512,260 @@ window.FLASHCARDS_DATA = [
       }
     ],
     unifiedSynthesis: "Cự tuyệt việc làm thuê chạy theo chỉ số ngắn hạn: Thực hiện bước tiến có sức nặng vật chất đo đếm được (Thực Tiến) làm dịch chuyển nền tảng và nâng tầm vị thế sinh tồn của định chế quyền lực (Định Chế)."
+  },
+  {
+    id: 11,
+    date: "26/11/2026",
+    source: "Alex Karp & Joe Lonsdale (Palantir) - Listening-26-11-2026",
+    englishTerm: "Brain structures different",
+    phoneticOrSub: "Não cấu dị thể / Cấu trúc nơ-ron dị biệt của tinh hoa đột biến",
+    quote: "The very, very best in the world... the brain structures different... The brain structure, the way of solving problems, it is not at all similar.",
+    contextMechanism: "Tấn công định chế dân chủ hóa năng lực và bình đẳng giáo dục. Tinh hoa kiệt xuất không sinh ra từ nỗ lực tuyến tính hay bằng cấp tích lũy, mà là một phân loài nhận thức khác biệt với mạng lưới thần kinh xử lý thông tin ở tầng bậc phi phàm.",
+    fieldApplication: "Anh đừng cố tuyển thêm mấy ông chuyên gia bằng cấp sáng lóa về làm quy hoạch dự án nghìn tỷ này; những kẻ có thể nhìn thông suốt toàn bộ ma trận dòng tiền và các xung lực đất đai phức tạp ở Hà Nội thuộc về nhóm Não Cấu Dị Thể—hệ thần kinh của họ xử lý bài toán ở một tầng bậc hoàn toàn khác với nhân sự điều hành thông thường.",
+    hanVietTerm: "NÃO CẤU DỊ THỂ",
+    hanTu: "腦構異體",
+    mermaidCode: `flowchart TD
+    N1["<b>NÃO</b><br/><i>(Khối tủy chứa thần trí + Nếp gấp sọ)</i>"] --> NC["<b>NÃO CẤU (腦構)</b><br/>Khung giàn mạng lưới nơ-ron thần kinh bẩm sinh"]
+    N2["<b>CẤU</b><br/><i>(Rường cột đan cài + Khớp nối liên hoàn)</i>"] --> NC
+    
+    NC -- "BẢN CHẤT SINH HỌC THẦN KINH LÀ" --> DT["<b>DỊ THỂ (異體)</b><br/>Phân loài đột biến, thể thức nhận thức phi phàm"]
+    
+    DT --> D1["<b>DỊ</b><br/><i>(Mặt nạ quái kiệt + Hai tay nâng)</i>"]
+    DT --> D2["<b>THỂ</b><br/><i>(Xương cốt làm rường + Lễ khí trang nghiêm)</i>"]`,
+    decompressedChars: [
+      {
+        char: "NÃO",
+        hanTu: "腦",
+        soul: "Khối tủy chứa thần trí và ý niệm",
+        etymology: "Bộ Nhục (⺼ - mô thịt sống) + Xuyên (巛 - các nếp gấp cuộn của vỏ não) + Hung (囟 - hộp sọ bọc lấy).",
+        worldview: "Khối tinh hoa tủy sống được bảo vệ nghiêm mật bên trong hộp sọ, cội nguồn phát sinh thần trí và tư duy của con người."
+      },
+      {
+        char: "CẤU",
+        hanTu: "構",
+        soul: "Khung giàn rường cột đan cài",
+        etymology: "Bộ Mộc (木 - thanh gỗ rường cột) + Cấu (冓 - các khớp nối đan cài chằng chịt).",
+        worldview: "Bộ khung giàn chịu lực của tòa đại điện; mạng lưới khớp nối liên hoàn định hình nên sức chịu tải của toàn bộ công trình."
+      },
+      {
+        char: "DỊ",
+        hanTu: "異",
+        soul: "Mặt nạ quái kiệt phi phàm",
+        etymology: "Bộ Điền (田 - mặt nạ quái dị trong tế lễ cổ) + Cung (廾 - hai bàn tay giơ lên nâng mặt nạ kỳ dị).",
+        worldview: "Sự đột biến bản thể tận căn rễ, cự tuyệt tính đồng nhất tầm thường của đồng loại."
+      },
+      {
+        char: "THỂ",
+        hanTu: "體",
+        soul: "Hình thái cấu trúc bản nguyên",
+        etymology: "Bộ Cốt (骨 - khung xương cốt tủy) + Lễ (豊 - đồ tế khí trang nghiêm).",
+        worldview: "Bộ khung xương định hình nên hình thái tồn tại và cơ chế vận hành của một thực thể sống giữa vũ trụ."
+      }
+    ],
+    unifiedSynthesis: "Đập tan ảo tưởng về bình đẳng năng lực: Tinh hoa kiệt xuất vận hành bằng một cấu trúc giàn khung thần kinh (Não Cấu) thuộc về một phân loài nhận thức đột biến hoàn toàn khác biệt (Dị Thể)."
+  },
+  {
+    id: 12,
+    date: "26/11/2026",
+    source: "Alex Karp & Joe Lonsdale (Palantir) - Listening-26-11-2026",
+    englishTerm: "A different universe",
+    phoneticOrSub: "Biệt hữu càn khôn / Tầng bậc thực tại hoàn toàn tách biệt",
+    quote: "People think that there's like, you know, they're within a standard deviation of the best if you're the second best, but it's not... it's just a different universe, it's not true.",
+    contextMechanism: "Bẻ gãy giả định tiệm tiến tuyến tính và ảo tưởng về tính thay thế. Khoảng cách giữa kẻ đứng đầu và kẻ thứ hai không phải vài phần trăm hiệu năng, mà là khoảng cách giữa hai cõi giới bản thể vận hành theo các định luật vật lý hoàn toàn khác nhau.",
+    fieldApplication: "Nhiều nhà đầu cơ cứ nghĩ đất phân lô ven đô chỉ kém đất biệt thự mặt Hồ Tây một vài nấc về biên độ tăng giá, nhưng thực chất hai khối tài sản này thuộc về Biệt Hữu Càn Khôn—một bên là tài sản bản vị quyền lực vĩnh cửu không thể tái tạo, còn bên kia chỉ là món hàng phái sinh chạy theo chu kỳ bơm tiền.",
+    hanVietTerm: "BIỆT HỮU CÀN KHÔN",
+    hanTu: "別有乾坤",
+    mermaidCode: `flowchart TD
+    B1["<b>BIỆT</b><br/><i>(Lưỡi dao rạch đôi xương cốt)</i>"] --> BH["<b>BIỆT HỮU (別有)</b><br/>Tồn tại một thực tại rạch ròi, tuyệt đối không dính dáng"]
+    B2["<b>HỮU</b><br/><i>(Bàn tay nắm chặt tảng thịt tế)</i>"] --> BH
+    
+    BH -- "TẦNG BẬC THỰC TẠI TÁCH RỜI ĐÓ LÀ" --> CK["<b>CÀN KHÔN (乾坤)</b><br/>Toàn bộ vũ trụ và quy luật vận hành của cõi giới riêng"]
+    
+    CK --> C1["<b>CÀN</b><br/><i>(Mặt trời vươn lên đỉnh trời)</i>"]
+    CK --> C2["<b>KHÔN</b><br/><i>(Đất dày nâng đỡ vạn vật)</i>"]`,
+    decompressedChars: [
+      {
+        char: "BIỆT",
+        hanTu: "別",
+        soul: "Lưỡi dao rạch đôi ranh giới tuyệt đối",
+        etymology: "Bộ Cốt (冎 - mảnh xương) + Đao (刂 - lưỡi dao sắc rạch đôi).",
+        worldview: "Lưỡi dao xẻ đôi hai bờ thực tại, phân định rạch ròi hai thế giới không có điểm chung và bất khả dung hòa."
+      },
+      {
+        char: "HỮU",
+        hanTu: "有",
+        soul: "Bàn tay nắm giữ thực thể tồn tại",
+        etymology: "Bàn tay (Thủ 𠂇) nắm lấy miếng thịt cúng tế (Nhục 月).",
+        worldview: "Sự hiện hữu hiển nhiên, chắc đặc và sờ nắm được của một thực tại khách quan."
+      },
+      {
+        char: "CÀN",
+        hanTu: "乾",
+        soul: "Nguyên lý sáng tạo tối cao của vòm trời",
+        etymology: "Mặt trời chiếu rọi từ trên cao (Trào 倝) + Khất (乞 - khí bốc lên ngùn ngụt).",
+        worldview: "Vòm trời quang đãng, nguyên lý vận hành tối thượng và ánh sáng khai phóng vạn vật."
+      },
+      {
+        char: "KHÔN",
+        hanTu: "坤",
+        soul: "Đất mẹ dày dặn bao dung vạn vật",
+        etymology: "Bộ Thổ (土 - đất đai) + Thân (申 - trục sấm sét xuyên suốt lòng đất).",
+        worldview: "Mặt đất bao la nuôi dưỡng muôn loài, môi trường chịu tải toàn bộ quy luật tồn vong của sinh mệnh."
+      }
+    ],
+    unifiedSynthesis: "Khoảng cách giữa kẻ vô địch và phần còn lại không phải là vài mét trên đường đua, mà là một thực tại hiện hữu rạch ròi (Biệt Hữu) mang trọn vẹn cả một bầu trời và mặt đất với quy luật vận hành hoàn toàn khác (Càn Khôn)."
+  },
+  {
+    id: 13,
+    date: "26/11/2026",
+    source: "Alex Karp & Joe Lonsdale (Palantir) - Listening-26-11-2026",
+    englishTerm: "Within standard deviation of that talent",
+    phoneticOrSub: "Chuẩn sai đồng quỹ / Định luật mù lòa nhận thức của thể chế",
+    quote: "To appreciate talent, you need to be within standard deviation of that talent. Unless you have some specialized weird [ability]...",
+    contextMechanism: "Dùng thước đo độ lệch chuẩn để lột trần sự bất lực của các cơ cấu quan liêu: kẻ ở ngưỡng trung bình không thể nhận biết được thiên tài vượt bậc và luôn coi họ là dị hợm. Muốn định giá được kỳ tài, bạn buộc phải ở trong cùng biên độ phương sai nhận thức với họ.",
+    fieldApplication: "Anh giao thương vụ này cho ban bệ cấp dưới thẩm định thì chắc chắn họ sẽ lắc đầu, bởi nguyên lý nhận thức là người đánh giá phải ở Chuẩn Sai Đồng Quỹ thì mới thấy được độ quái và tầm nhìn của cấu trúc thương vụ này, còn những người ở mức trung bình sẽ chỉ nhìn thấy rủi ro và sự dị biệt.",
+    hanVietTerm: "CHUẨN SAI ĐỒNG QUỸ",
+    hanTu: "準差同軌",
+    mermaidCode: `flowchart TD
+    C1["<b>CHUẨN</b><br/><i>(Mực nước thăng bằng tuyệt đối)</i>"] --> CS["<b>CHUẨN SAI (準差)</b><br/>Biên độ phương sai số học đo lường độ phân tán quanh tâm"]
+    C2["<b>SAI</b><br/><i>(Bông lúa mọc so le lệch tầng)</i>"] --> CS
+    
+    CS -- "ĐIỀU KIỆN NHẬN THỨC BẮT BUỘC PHẢI" --> DQ["<b>ĐỒNG QUỸ (同軌)</b><br/>Cùng chung vệt bánh xe và quỹ đạo vận hành nhận thức"]
+    
+    DQ --> D1["<b>ĐỒNG</b><br/><i>(Cùng chung một tiếng nói khuôn khổ)</i>"]
+    DQ --> D2["<b>QUỸ</b><br/><i>(Vệt bánh xe in sâu trên đường)</i>"]`,
+    decompressedChars: [
+      {
+        char: "CHUẨN",
+        hanTu: "準",
+        soul: "Mực nước phẳng lặng thăng bằng",
+        etymology: "Bộ Thủy (氵 - mặt nước phẳng lặng) + Chuẩn (隼 - chim ưng săn mồi nhìn chuẩn xác).",
+        worldview: "Thước đo thăng bằng tuyệt đối của tự nhiên, điểm quy chiếu chuẩn mực không thiên lệch."
+      },
+      {
+        char: "SAI",
+        hanTu: "差",
+        soul: "Độ so le lệch nhau giữa các nấc",
+        etymology: "Bộ Sơ ( sơ miếm) + Cừu (chiếc sừng dê mọc so le lệch bậc).",
+        worldview: "Khoảng cách dung sai, độ chênh lệch vi tế giữa các bậc thứ hạng trong trật tự vạn vật."
+      },
+      {
+        char: "ĐỒNG",
+        hanTu: "同",
+        soul: "Quy tụ về một khuôn khổ chung",
+        etymology: "Bộ Khẩu (口 - miệng cùng cất tiếng) bên trong bộ Quynh (冂 - ranh giới chung).",
+        worldview: "Sự đồng điệu về tần số, nằm chung trong một biên giới nhận thức có thể giao tiếp được."
+      },
+      {
+        char: "QUỸ",
+        hanTu: "軌",
+        soul: "Vệt bánh xe in sâu tạo thành đường đi",
+        etymology: "Bộ Xa (車 - cỗ xe) + Cửu (九 - con số biến hóa cùng cực).",
+        worldview: "Vết hằn của bánh xe lăn trên mặt đất xác lập nên quỹ đạo di chuyển tất yếu của vận mệnh và tư duy."
+      }
+    ],
+    unifiedSynthesis: "Thể chế quan liêu luôn mù lòa trước thiên tài: Kẻ đánh giá buộc phải đứng trong cùng biên độ phương sai (Chuẩn Sai) và lăn bánh trên cùng một quỹ đạo nhận thức cao cấp (Đồng Quỹ) thì mới có khả năng thẩm định được tầm vóc của kỳ tài."
+  },
+  {
+    id: 14,
+    date: "26/11/2026",
+    source: "Alex Karp & Joe Lonsdale (Palantir) - Listening-26-11-2026",
+    englishTerm: "Plasticity of learning",
+    phoneticOrSub: "Tố tính tập hóa / Khả năng tự tái cấu trúc nhận thức của hệ thống",
+    quote: "Because it's like there's this like plasticity of learning in the US, which is something that I think other countries struggle with...",
+    contextMechanism: "Tái định nghĩa ưu thế cạnh tranh thể chế: sức mạnh của một hệ thống kinh tế không nằm ở tài nguyên tĩnh, mà nằm ở độ mềm dẻo của mạng lưới thần kinh vĩ mô—tốc độ tự phá hủy các mô thức định kiến cũ để dung nạp mô thức công nghệ mới trước khi bị đào thải.",
+    fieldApplication: "Những gia tộc kinh doanh trụ vững và giàu lên sau mỗi đợt siết tín dụng và thay đổi Luật Đất đai tại Hà Nội đều sở hữu Tố Tính Tập Hóa—họ có độ mềm dẻo thể chế cực cao để xóa bỏ ngay thói quen 'ôm đất chờ thời' kiểu cũ và chuyển dịch dòng tiền sang cấu trúc tài sản dòng tiền chuẩn chỉnh.",
+    hanVietTerm: "TỐ TÍNH TẬP HÓA",
+    hanTu: "塑性習化",
+    mermaidCode: `flowchart TD
+    T1["<b>TỐ</b><br/><i>(Đất sét nhào nặn theo trăng non mới)</i>"] --> TT["<b>TỐ TÍNH (塑性)</b><br/>Độ mềm dẻo, khả năng tự tái lập trình cấu trúc mà không vỡ"]
+    T2["<b>TÍNH</b><br/><i>(Bản tính sinh mệnh nảy mầm từ tâm)</i>"] --> TT
+    
+    TT -- "PHƯƠNG THỨC TIẾN HÓA LÀ" --> TH["<b>TẬP HÓA (習化)</b><br/>Vỗ cánh tôi luyện ngàn lần để chuyển hóa hoàn toàn nhận thức"]
+    
+    TH --> H1["<b>TẬP</b><br/><i>(Chim non vỗ cánh tập bay dưới nắng)</i>"]
+    TH --> H2["<b>HÓA</b><br/><i>(Hai bóng người đảo chiều biến đổi bản chất)</i>"]`,
+    decompressedChars: [
+      {
+        char: "TỐ",
+        hanTu: "塑",
+        soul: "Đất sét mềm nặn thành mọi hình hài",
+        etymology: "Bộ Thổ (土 - đất đai) + Sóc (朔 - ngày trăng non khởi đầu chu kỳ mới).",
+        worldview: "Khối đất sét dẻo dai đón nhận chu kỳ đổi mới, có thể nhào nặn lại thành mọi hình thái mà không bị đông cứng hay nứt vỡ."
+      },
+      {
+        char: "TÍNH",
+        hanTu: "性",
+        soul: "Bản năng sinh tồn nảy nở từ tâm",
+        etymology: "Bộ Tâm (忄- trái tim cảm nhận) + Sinh (生 - mầm cây vươn lên).",
+        worldview: "Năng lực nội sinh cắm rễ sâu bên trong bản thể, quyết định cách thức phản ứng trước biến thiên của vũ trụ."
+      },
+      {
+        char: "TẬP",
+        hanTu: "習",
+        soul: "Chim non đập cánh rèn luyện nghìn lần",
+        etymology: "Bộ Vũ (羽 - đôi cánh chim non) trên chữ Bạch (白 - vòm trời sáng rõ).",
+        worldview: "Chim non liên tục vỗ cánh luyện bay dưới ánh mặt trời; sự rèn luyện lặp đi lặp lại để biến tri thức thành phản xạ bản năng."
+      },
+      {
+        char: "HÓA",
+        hanTu: "化",
+        soul: "Bước lột xác đảo chiều biến đổi bản chất",
+        etymology: "Hình người đứng thẳng (Nhân 人) bên cạnh người lộn ngược đầu (匕).",
+        worldview: "Sự chuyển hóa tận gốc rễ, biến đổi từ trạng thái cũ sang một trạng thái sinh mệnh hoàn toàn mới."
+      }
+    ],
+    unifiedSynthesis: "Ưu thế sống còn của một siêu thể chế không nằm ở độ cứng vững bảo thủ, mà nằm ở độ mềm dẻo đàn hồi tự tái lập trình cấu trúc (Tố Tính) qua quá trình không ngừng học hỏi để tự lột xác chuyển hóa bản thân (Tập Hóa)."
+  },
+  {
+    id: 15,
+    date: "26/11/2026",
+    source: "Alex Karp & Joe Lonsdale (Palantir) - Listening-26-11-2026",
+    englishTerm: "Hear the blue note",
+    phoneticOrSub: "Thẩm thính lam thanh / Trực giác nhận diện quái kiệt phi chuẩn",
+    quote: "Very few people can hear the blue note, almost no one can play it. To be what we do in tech is we hear the blue note on the tech talent side.",
+    contextMechanism: "Đập tan bảng tiêu chí định lượng kiểu hành chính (KPI, bằng cấp, tính hòa đồng). Việc nhận diện quái kiệt đòi hỏi năng lực thẩm âm trực giác: phát hiện ra nốt giáng phi chuẩn mang linh hồn thiên tài lẩn khuất bên trong những cá thể lập dị và dám trao quyền cho họ.",
+    fieldApplication: "Ai có tiền cũng đọc được bản đồ quy hoạch và thấy mặt đường to, nhưng trong cuộc săn tài sản lõi nội đô lịch sử, chỉ những nhà đầu tư có khả năng Thẩm Thính Lam Thanh mới cảm nhận được long mạch, chiều sâu pháp lý ngầm và giá trị vô hình của mảnh đất mà không một bảng biểu định giá nào đo lường nổi.",
+    hanVietTerm: "THẨM THÍNH LAM THANH",
+    hanTu: "審聽藍聲",
+    mermaidCode: `flowchart TD
+    S1["<b>THẨM</b><br/><i>(Soi đuốc tìm vết chân thú trong đêm)</i>"] --> TT["<b>THẨM THÍNH (審聽)</b><br/>Soi xét bằng tai mắt và toàn bộ tâm thức sâu kín"]
+    S2["<b>THÍNH</b><br/><i>(Tai vua lắng nghe với một tấm lòng)</i>"] --> TT
+    
+    TT -- "ĐỐI TƯỢNG PHI CHUẨN CẦN BẮT ĐƯỢC LÀ" --> LT["<b>LAM THANH (藍聲)</b><br/>Âm thanh giáng nốt bí ẩn ngoài thang âm truyền thống"]
+    
+    LT --> L1["<b>LAM</b><br/><i>(Cỏ chàm ngâm chậu nhuộm sắc xanh thẫm)</i>"]
+    LT --> L2["<b>THANH</b><br/><i>(Khánh đá gõ vang vào tai người)</i>"]`,
+    decompressedChars: [
+      {
+        char: "THẨM",
+        hanTu: "審",
+        soul: "Soi đuốc phân biệt vết tích vi tế",
+        etymology: "Bộ Miên (宀 - mái nhà) + Phiên (釆 - dấu chân muông thú in rõ trong đêm).",
+        worldview: "Thắp đuốc soi rõ từng vết tích vi tế phân biệt thật giả, không để bề ngoài hào nhoáng đánh lừa."
+      },
+      {
+        char: "THÍNH",
+        hanTu: "聽",
+        soul: "Lắng nghe bằng cả giác quan và tâm thức",
+        etymology: "Bộ Nhĩ (耳 - tai) + Vương (王 - bậc vương giả) + Đức (悳 - tâm đức) + Nhất (一 - một lòng quy về).",
+        worldview: "Bậc minh quân dỏng tai lắng nghe tiếng lòng muôn dân với sự cung kính và nhất tâm tuyệt đối."
+      },
+      {
+        char: "LAM",
+        hanTu: "藍",
+        soul: "Sắc xanh cỏ chàm thăm thẳm u uẩn",
+        etymology: "Bộ Thảo (艹 - cây cỏ) + Giam (監 - bồn nước soi bóng kiểm tra).",
+        worldview: "Cỏ chàm ngâm trong bồn nước nhuộm nên sắc xanh thẫm u uất, chiều sâu thăm thẳm của nỗi cô đơn và dị giáo."
+      },
+      {
+        char: "THANH",
+        hanTu: "聲",
+        soul: "Tiếng khánh đá gõ vang truyền thần",
+        etymology: "Chiếc khánh đá treo trên giá (Khánh 磬) + Nhĩ (耳 - tai nghe rung động).",
+        worldview: "Âm thanh va đập rung động truyền qua không gian, lọt vào thính giác mang theo năng lượng của linh hồn."
+      }
+    ],
+    unifiedSynthesis: "Tước bỏ mọi thước đo định lượng bằng cấp: Dùng toàn bộ tâm thức tinh tường để lắng nghe thấu suốt (Thẩm Thính) nhằm bắt được tần số của nốt nhạc giáng phi chuẩn mang linh hồn thiên tài (Lam Thanh) lẩn khuất giữa những kẻ lập dị."
   }
 ];
