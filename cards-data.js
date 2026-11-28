@@ -767,5 +767,260 @@ window.FLASHCARDS_DATA = [
       }
     ],
     unifiedSynthesis: "Tước bỏ mọi thước đo định lượng bằng cấp: Dùng toàn bộ tâm thức tinh tường để lắng nghe thấu suốt (Thẩm Thính) nhằm bắt được tần số của nốt nhạc giáng phi chuẩn mang linh hồn thiên tài (Lam Thanh) lẩn khuất giữa những kẻ lập dị."
+  },
+  {
+    id: 16,
+    date: "28/11/2026",
+    source: "Alex Karp (European Security Forum / Palantir) - Practice-28-11-2026",
+    englishTerm: "Private diagnostic",
+    phoneticOrSub: "Mật chẩn thực tướng / Chẩn đoán lâm sàng mật về thực địa",
+    quote: "There's always a diagnostic of what happens in the war, most of that can't be discussed in public. And so the diagnostic, the private diagnostic is that David beats Goliath where David is a hero... but heavily empowered with technology.",
+    contextMechanism: "Tách đôi thực tại làm hai tầng bậc: Tầng kịch nghệ tuyên truyền đại chúng và Tầng bản thể lâm sàng kín. Mượn thuật ngữ y khoa để biến chuyên gia tình báo thành bác sĩ phẫu thuật nhìn thấu nguyên nhân sống - chết cơ học của chiến trường, vô hiệu hóa mọi phân tích công khai bề nổi.",
+    fieldApplication: "Báo đài và các hội nhóm đang tung hô rằng đất đấu giá vùng ven Hà Nội đang sốt nóng trở lại, nhưng một Mật Chẩn Thực Tướng của giới tài phiệt ngầm cho thấy đây thuần túy là chiêu thức đảo nợ để kích thanh khoản thoát hàng kẹp đòn bẩy, chứ dòng tiền thực của nền kinh tế chưa hề giải ngân vào đấy.",
+    hanVietTerm: "MẬT CHẨN THỰC TƯỚNG",
+    hanTu: "密診實相",
+    mermaidCode: `flowchart TD
+    M1["<b>MẬT</b><br/><i>(Núi rậm che kín hang sâu)</i>"] --> MC["<b>MẬT CHẨN (密診)</b><br/>Bắt mạch lâm sàng trong phòng kín, tuyệt mật không rò rỉ"]
+    M2["<b>CHẨN</b><br/><i>(Lời nói + Đường vân mạch máu)</i>"] --> MC
+    
+    MC -- "MỤC TIÊU KHAI MỞ LÀ" --> TT["<b>THỰC TƯỚNG (實相)</b><br/>Chân tướng trần trụi của sự sống - chết cơ học"]
+    
+    TT --> T1["<b>THỰC</b><br/><i>(Mái nhà đầy vàng bạc sờ nắm được)</i>"]
+    TT --> T2["<b>TƯỚNG</b><br/><i>(Mắt nhìn cây gỗ thẩm định chân diện)</i>"]`,
+    decompressedChars: [
+      {
+        char: "MẬT",
+        hanTu: "密",
+        soul: "Hang sâu kín mít giữa núi rậm",
+        etymology: "Bộ Sơn (山 - núi non hiểm trở) che chắn trên chữ Tất (宓 - căn phòng yên tĩnh khép kín).",
+        worldview: "Không gian tuyệt mật được phong tỏa bởi thiên nhiên hiểm trở, cự tuyệt mọi sự dòm ngó hay rò rỉ thông tin ra nhân gian."
+      },
+      {
+        char: "CHẨN",
+        hanTu: "診",
+        soul: "Bắt mạch dò tìm căn nguyên bệnh tật",
+        etymology: "Bộ Ngôn (言 - lời hỏi han phân tích) + Chẩn (㐱 - đường vân râu tóc, mạch máu vi tế bên trong cơ thể).",
+        worldview: "Thao tác của vị đại danh y: đặt ngón tay lên mạch đập để thấu suốt dòng chảy sinh tử bên trong nội tạng, bóc trần căn bệnh giấu kín."
+      },
+      {
+        char: "THỰC",
+        hanTu: "實",
+        soul: "Của cải chắc đặc sờ nắm được",
+        etymology: "Mái nhà (宀) chứa đầy dây xâu tiền (Quán 毌) và báu vật vỏ sò (Bối 貝).",
+        worldview: "Sự thật khách quan đong đếm được bằng xương máu và vật chất, đối lập tuyệt đối với những màn kịch tuyên truyền rỗng tuếch."
+      },
+      {
+        char: "TƯỚNG",
+        hanTu: "相",
+        soul: "Mắt quan sát thẩm định chân diện",
+        etymology: "Bộ Mộc (木 - cây cối) + Mục (目 - con mắt nhìn thấu).",
+        worldview: "Con mắt quan sát kỹ lưỡng từng thớ gỗ để nhận diện đúng hình thái và bản chất thật của đối tượng, không bị bề ngoài đánh lừa."
+      }
+    ],
+    unifiedSynthesis: "Tước bỏ toàn bộ kịch nghệ tuyên truyền mị dân: Đưa thực địa vào phòng giải phẫu tuyệt mật (Mật Chẩn) để bắt mạch và phơi bày bản chất trần trụi của quy luật sinh tử cơ học (Thực Tướng)."
+  },
+  {
+    id: 17,
+    date: "28/11/2026",
+    source: "Alex Karp (European Security Forum / Palantir) - Practice-28-11-2026",
+    englishTerm: "Data protection (Ontological Inversion)",
+    phoneticOrSub: "Số cứ mật giới / Phân vùng an ninh dữ liệu tác chiến",
+    quote: "Only very few people can actually know the battle plan, that's called data protection... The ability to segment data, to control who sees what, to purge data... exactly what you need in GDPR, is exactly what wins the battle...",
+    contextMechanism: "Đảo ngược bản thể (Ontological Inversion): Tước đoạt tính dân sự hành chính của 'bảo vệ dữ liệu' (GDPR), giật về cội nguồn quân sự: phân vùng thông tin tác chiến (compartmentation) và kỷ luật an ninh bảo mật sinh tử (OPSEC) để bảo toàn sinh mạng cho lực lượng thực địa.",
+    fieldApplication: "Trong các thương vụ gom đất ngầm quy mô hàng nghìn tỷ quanh trục Tây Hồ Tây, nguyên tắc sống còn số một là Số Cứ Mật Giới—phải phân vùng dữ liệu và cô lập thông tin tuyệt đối để ngay cả các đầu mối môi giới ruột cũng không thể xâu chuỗi được ai là người đứng sau gom hàng, tránh bị đối thủ đón đầu nâng giá.",
+    hanVietTerm: "SỐ CỨ MẬT GIỚI",
+    hanTu: "數據密界",
+    mermaidCode: `flowchart TD
+    S1["<b>SỐ</b><br/><i>(Bó thẻ tre đếm sợi tơ)</i>"] --> SC["<b>SỐ CỨ (數據)</b><br/>Dữ liệu tọa độ, thông tin tác chiến định lượng thực địa"]
+    S2["<b>CỨ</b><br/><i>(Tay vịn cành cây vững chắc)</i>"] --> SC
+    
+    SC -- "CƠ CHẾ PHÒNG THỦ SỐNG CÒN LÀ" --> MG["<b>MẬT GIỚI (密界)</b><br/>Ranh giới phong tỏa, phân vùng truy cập và cô lập hỏa lực"]
+    
+    MG --> M1["<b>MẬT</b><br/><i>(Hang đá che kín không rò rỉ)</i>"]
+    MG --> M2["<b>GIỚI</b><br/><i>(Lằn ranh bờ cõi phân chia rạch ròi)</i>"]`,
+    decompressedChars: [
+      {
+        char: "SỐ",
+        hanTu: "數",
+        soul: "Bó thẻ tre tính toán số liệu",
+        etymology: "Bộ Phác (攵 - gõ đập sắp xếp) + Lâu (đếm các hạt gạo và bó thẻ tre).",
+        worldview: "Sự định lượng hóa thế giới khách quan thành các biến số có thể tính toán, kiểm soát và điều phối."
+      },
+      {
+        char: "CỨ",
+        hanTu: "據",
+        soul: "Điểm tựa chắc chắn nắm trong tay",
+        etymology: "Bộ Thủ (扌- bàn tay giữ chặt) + Hổ (虍 - con cọp cắm móng vào đất) + Thỉ (豕).",
+        worldview: "Điểm neo đậu vững chắc của chứng cứ và thông tin xác thực, làm chỗ dựa tuyệt đối cho các quyết định sinh tử."
+      },
+      {
+        char: "MẬT",
+        hanTu: "密",
+        soul: "Sự kín đáo bất khả xâm phạm",
+        etymology: "Núi non trùng điệp (Sơn 山) bao bọc gian phòng đóng kín (Tất 宓).",
+        worldview: "Kỷ luật an ninh phòng vệ nghiêm ngặt, ngăn chặn triệt để mọi sự rò rỉ tín hiệu tác chiến ra ngoài."
+      },
+      {
+        char: "GIỚI",
+        hanTu: "界",
+        soul: "Lằn ranh phân chia rạch ròi cương thổ",
+        etymology: "Bộ Điền (田 - bờ ruộng phân cách) + Giới (介 - giáp trụ phân chia lằn ranh).",
+        worldview: "Đường biên giới kiên cố phân chia không gian thành các phân khu biệt lập, cấm vượt qua ranh giới khi chưa có quyền lệnh."
+      }
+    ],
+    unifiedSynthesis: "Tước bỏ lớp vỏ pháp lý hành chính: Biến thông tin định lượng thực địa (Số Cứ) thành các phân vùng tác chiến được bảo mật nghiêm mật bằng ranh giới cô lập tuyệt đối (Mật Giới) để bảo toàn sinh mạng cho toàn bộ hệ thống."
+  },
+  {
+    id: 18,
+    date: "28/11/2026",
+    source: "Alex Karp (European Security Forum / Palantir) - Practice-28-11-2026",
+    englishTerm: "Dual-purpose technologies",
+    phoneticOrSub: "Quân dân lưỡng dụng / Công nghệ lưỡng dụng sinh tử",
+    quote: "The original Silicon Valley, Silicon Valley 1.0 built dual-tech, dual-purpose technologies that were built for the military and then benefited the rest of society, primarily the West.",
+    contextMechanism: "Triệu hồi cội nguồn Thung lũng Silicon 1.0: Công nghệ chỉ có giá trị vĩnh cửu khi nó được sinh ra và tôi luyện dưới áp lực sinh tử của chiến tranh quốc phòng, sau đó mới chuyển hóa xuống nền kinh tế dân sự. Đập tan sự phù phiếm của các ứng dụng mạng xã hội, câu view dễ vỡ.",
+    fieldApplication: "Tập đoàn của anh rót vốn vào hệ thống kho bãi thông minh và chuỗi logistics ở cửa ngõ phía Bắc Hà Nội thì phải định vị nó theo tư duy Quân Dân Lưỡng Dụng—bình thường thì khai thác thương mại tạo dòng tiền vượt trội, nhưng khi chuỗi cung ứng bị gián đoạn thì nó lập tức trở thành hạ tầng điều phối huyết mạch không thể thay thế.",
+    hanVietTerm: "QUÂN DÂN LƯỠNG DỤNG",
+    hanTu: "軍民兩用",
+    mermaidCode: `flowchart TD
+    Q1["<b>QUÂN</b><br/><i>(Xe bọc thép bao bọc trận địa)</i>"] --> QD["<b>QUÂN DÂN (軍民)</b><br/>Trục dọc kết nối giữa an ninh quốc phòng và nền kinh tế đời sống"]
+    Q2["<b>DÂN</b><br/><i>(Mắt mở to nhìn muôn dân sinh sôi)</i>"] --> QD
+    
+    QD -- "NĂNG LỰC CÔNG NGHỆ CHUYỂN HÓA LÀ" --> LD["<b>LƯỠNG DỤNG (兩用)</b><br/>Tích hợp song hành công năng tác chiến và vận hành thương mại"]
+    
+    LD --> L1["<b>LƯỠNG</b><br/><i>(Hai quả cân cân bằng đòn gánh)</i>"]
+    LD --> L2["<b>DỤNG</b><br/><i>(Chuông đồng gióng vang phát huy tác dụng)</i>"]`,
+    decompressedChars: [
+      {
+        char: "QUÂN",
+        hanTu: "軍",
+        soul: "Vành đai xe bọc thép bảo vệ quốc gia",
+        etymology: "Bộ Xa (車 - cỗ xe chiến trận) bên dưới chữ Bao (冖 - vòm che chắn bảo vệ trận địa).",
+        worldview: "Lực lượng vũ trang và cỗ máy chiến tranh được bọc giáp kiên cố, gánh vác sứ mệnh sống còn bảo vệ sự tồn vong của một nền văn minh."
+      },
+      {
+        char: "DÂN",
+        hanTu: "民",
+        soul: "Muôn dân trăm họ sinh sôi nảy nở",
+        etymology: "Hình con mắt mở to nhìn thế gian, gốc rễ của xã hội và dòng chảy kinh tế thường nhật.",
+        worldview: "Quần chúng nhân dân trong đời sống hòa bình, nơi tiêu thụ sản phẩm và duy trì sự hưng thịnh của quốc gia."
+      },
+      {
+        char: "LƯỠNG",
+        hanTu: "兩",
+        soul: "Hai quả cân thăng bằng song hành",
+        etymology: "Hai quả cân treo ở hai đầu đòn gánh, biểu tượng của sự cân bằng và hoàn bị cả hai phương diện.",
+        worldview: "Cấu trúc song trùng, không thiên lệch, tích hợp trọn vẹn hai năng lực đối lập trong một thể thống nhất."
+      },
+      {
+        char: "DỤNG",
+        hanTu: "用",
+        soul: "Công năng thực tiễn mang lại giá trị",
+        etymology: "Hình chiếc chuông đồng gõ vang hoặc chiếc thuyền gỗ phát huy công năng chuyên chở.",
+        worldview: "Hiệu năng ứng dụng thực tế giải quyết bài toán cụ thể, cự tuyệt những thứ lý thuyết suông vô dụng."
+      }
+    ],
+    unifiedSynthesis: "Đập tan sự phù phiếm của công nghệ đồ chơi tiêu dùng: Công nghệ đích thực phải được đúc rèn từ lò lửa chiến tranh bảo vệ quốc gia (Quân) rồi chuyển hóa nuôi sống xã hội (Dân), tích hợp trọn vẹn hai công năng sinh tử và phát triển (Lưỡng Dụng)."
+  },
+  {
+    id: 19,
+    date: "28/11/2026",
+    source: "Alex Karp (European Security Forum / Palantir) - Practice-28-11-2026",
+    englishTerm: "Carcinogen on the West",
+    phoneticOrSub: "Trí ung độc chất / Tác nhân gây hoại tử sinh học từ bên trong",
+    quote: "While convincing you it's a great thing by disseminating the thinnest, most hard to understand politics ever understood, called wokism... and I believe that's a carcinogen on the West in particular, a carcinogen which for which we pay a huge price...",
+    contextMechanism: "Triệu hồi thuật ngữ ung thư học (oncology): Carcinogen. Định vị các trào lưu chính trị danh tính và sự trốn tránh thực tại như một khối u di căn đang làm thối rữa nền văn minh phương Tây từ bên trong: sa đà vào những thứ chính trị mỏng dính trong khi sức mạnh công nghiệp và quân sự bị bào mòn.",
+    fieldApplication: "Cái thói quen vẽ dự án nghỉ dưỡng sinh thái nghìn tỷ trên giấy rồi thổi phồng các thuật ngữ xanh xao màu mè để huy động vốn đang là một Trí Ung Độc Chất phiên bản bất động sản Việt Nam—nó ru ngủ nhà đầu tư bằng những ảo tưởng vô căn cứ và làm biến dạng hoàn toàn tư duy tạo lập giá trị thực chất.",
+    hanVietTerm: "TRÍ UNG ĐỘC CHẤT",
+    hanTu: "致癰毒質",
+    mermaidCode: `flowchart TD
+    T1["<b>TRÍ</b><br/><i>(Mũi tên thúc giục cắm trúng đích)</i>"] --> TU["<b>TRÍ UNG (致癰)</b><br/>Gây nên sự ứ trệ, làm mưng mủ và khởi sinh khối u ác tính"]
+    T2["<b>UNG</b><br/><i>(Khí huyết ứ đọng thối rữa trên giường bệnh)</i>"] --> TU
+    
+    TU -- "BẢN CHẤT ĂN SÂU HỦY HOẠI LÀ" --> DC["<b>ĐỘC CHẤT (毒質)</b><br/>Độc tố bản thể ngấm sâu vào tủy sống, hủy hoại tế bào"]
+    
+    DC --> D1["<b>ĐỘC</b><br/><i>(Cỏ độc đâm chồi hủy diệt sinh mệnh)</i>"]
+    DC --> D2["<b>CHẤT</b><br/><i>(Hai rìu sắt chém thử - bản chất cốt lõi)</i>"]`,
+    decompressedChars: [
+      {
+        char: "TRÍ",
+        hanTu: "致",
+        soul: "Mũi tên lao thẳng dẫn tới kết cục",
+        etymology: "Bộ Phác (攵 - roi vọt thúc đẩy) + Chí (至 - mũi tên cắm sâu vào bia đích).",
+        worldview: "Hành động thúc đẩy đưa tới một kết quả tất yếu, không thể đảo ngược hay thoái thác."
+      },
+      {
+        char: "UNG",
+        hanTu: "癰",
+        soul: "Khối u mưng mủ do khí huyết ứ tắc",
+        etymology: "Bộ Nạch (疒 - người nằm liệt trên giường bệnh) + Ung (雍 - nước tù đọng không lưu thông).",
+        worldview: "Khối u độc sưng tấy làm thối rữa da thịt từ bên trong do kinh mạch bị tắc nghẽn, triệu chứng của sự hoại tử sinh học."
+      },
+      {
+        char: "ĐỘC",
+        hanTu: "毒",
+        soul: "Nọc độc hủy diệt mầm sống",
+        etymology: "Cỏ độc mọc chồi (Triệt 屮) biến dạng phá hủy sự sống của sinh mệnh.",
+        worldview: "Độc tố xâm nhập vào cơ thể sống, âm thầm làm tê liệt các giác quan và phá hủy cơ chế phòng vệ tự nhiên."
+      },
+      {
+        char: "CHẤT",
+        hanTu: "質",
+        soul: "Bản chất cốt tủy bất biến",
+        etymology: "Hai chiếc rìu chiến (Cân 斤) đặt trên của cải (Bối 貝) để thử độ rắn chắc.",
+        worldview: "Bản chất thực tế, cốt lõi không thể gột rửa hay đánh tráo của một hiện tượng vật chất."
+      }
+    ],
+    unifiedSynthesis: "Cự tuyệt tranh cãi chính trị hình thức: Vạch trần các trào lưu đạo đức giả thực chất là độc tố bản thể (Độc Chất) trực tiếp thúc đẩy sự hình thành các khối u di căn làm hoại tử nền văn minh từ bên trong (Trí Ung)."
+  },
+  {
+    id: 20,
+    date: "28/11/2026",
+    source: "Alex Karp (European Security Forum / Palantir) - Practice-28-11-2026",
+    englishTerm: "Synonym for platform data management",
+    phoneticOrSub: "Bình đài số quản / Bản chất thực chiến của hạ tầng dữ liệu",
+    quote: "Conventional arms, and what you're calling AI. Although AI here is a synonym for platform data management and AI.",
+    contextMechanism: "Hạ bệ định nghĩa (Semantic Deflation): Kéo AI từ hư danh siêu nhiên thần thánh xuống mặt đất cơ bắp. Khẳng định AI trong thực chiến chỉ là từ đồng nghĩa của việc quản trị hạ tầng nền tảng dữ liệu (pipelines, phân quyền, tích hợp cảm biến thời gian thực). Kẻ thắng là kẻ làm chủ hạ tầng tích hợp dữ liệu.",
+    fieldApplication: "Nhiều chủ đầu tư tại Hà Nội bỏ hàng triệu đô làm giải pháp tòa nhà thông minh nhưng thất bại thảm hại vì không hiểu rằng AI trong quản trị bất động sản thực chất chỉ là Bình Đài Số Quản—nếu anh không làm chủ được hệ thống hạ tầng dữ liệu cư dân, đo lường tiêu hao năng lượng và dòng tiền vận hành từ gốc thì toàn bộ hệ thống AI đó chỉ là một bảng đèn LED trang trí.",
+    hanVietTerm: "BÌNH ĐÀI SỐ QUẢN",
+    hanTu: "平台數管",
+    mermaidCode: `flowchart TD
+    B1["<b>BÌNH</b><br/><i>(Mặt nước phẳng lặng không nghiêng lệch)</i>"] --> BD["<b>BÌNH ĐÀI (平台)</b><br/>Sàn bệ móng vững chắc nâng đỡ toàn bộ hệ thống ứng dụng"]
+    B2["<b>ĐÀI</b><br/><i>(Đài cao quan sát dựng từ mặt đất)</i>"] --> BD
+    
+    BD -- "BẢN CHẤT CƠ BẮP THỰC TẾ LÀ" --> SQ["<b>SỐ QUẢN (數管)</b><br/>Điều tiết, phân luồng và quản trị chặt chẽ dòng chảy dữ liệu"]
+    
+    SQ --> S1["<b>SỐ</b><br/><i>(Bó thẻ tre đếm thông tin định lượng)</i>"]
+    SQ --> S2["<b>QUẢN</b><br/><i>(Ống tre dẫn dòng nước vào khuôn khổ)</i>"]`,
+    decompressedChars: [
+      {
+        char: "BÌNH",
+        hanTu: "平",
+        soul: "Mặt phẳng thăng bằng không gồ ghề",
+        etymology: "Cây bèo nổi trên mặt nước phẳng lặng, chia đều về hai phía cân bằng.",
+        worldview: "Mặt sàn tiêu chuẩn bằng phẳng, không thiên lệch, tạo điểm tựa ổn định cho muôn vật kiến tạo bên trên."
+      },
+      {
+        char: "ĐÀI",
+        hanTu: "台",
+        soul: "Đài quan sát kiên cố vươn cao",
+        etymology: "Công trình bằng đất đá vững chãi được dựng cao để phóng tầm mắt quan sát toàn cục.",
+        worldview: "Hạ tầng nền tảng (Platform) cơ bắp, sàn bệ chịu tải toàn bộ sức nặng của hệ thống thiết bị và con người."
+      },
+      {
+        char: "SỐ",
+        hanTu: "數",
+        soul: "Dòng dữ liệu định lượng tính toán",
+        etymology: "Bó thẻ tre đếm sợi tơ và số hạt lúa.",
+        worldview: "Dữ liệu thông tin số hóa từ cảm biến thực địa, nguyên liệu thô để cỗ máy tư duy vận hành."
+      },
+      {
+        char: "QUẢN",
+        hanTu: "管",
+        soul: "Ống tre dẫn dắt dòng chảy vào quy củ",
+        etymology: "Bộ Trúc (竹 - ống tre) trên chữ Quan (官 - quan ải kiểm soát).",
+        worldview: "Đường ống dẫn nước điều tiết lưu lượng; kỷ luật phân luồng, làm sạch và kiểm soát dòng thông tin không để thất thoát."
+      }
+    ],
+    unifiedSynthesis: "Tước bỏ ảo tưởng về 'thuật toán ma thuật': AI trong chiến trường không cứu rỗi được ai nếu thiếu vắng sàn bệ hạ tầng chịu tải (Bình Đài) cùng hệ thống đường ống phân luồng và quản trị dữ liệu cơ bắp (Số Quản)."
   }
 ];
